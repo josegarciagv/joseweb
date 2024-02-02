@@ -1,0 +1,106 @@
+body, .html { 
+    height: 100%; margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #201f1f; 
+}
+
+.container {
+    text-align: center;
+    color: #dddada;
+}
+
+.profile-section {
+    margin-top: 50px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.links-section {
+    margin: 20px 0;
+}
+
+.website-link {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #ac0f0f;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-link {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #0fac1c;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.tel-link {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #434743;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+.album-link {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #c9ae16;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+
+.link-button:hover {
+    background-color: #141012;
+}
+
+.links-section {
+    margin: 20px 0;
+}
+
+.copy-right {
+   margin-top: 20px;
+   color: #fdfdfd;
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+  
